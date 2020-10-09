@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddProduct">
+    
+    <TextView
+        android:id="@+id/customer_name"
+        android:text="Rongdhonu's Yo"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <EditText
+        android:id="@+id/productName"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:hint="Product Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/productPrice"
+        android:layout_marginTop="10dp"
+        android:hint="Product Price"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_marginTop="25dp"
+        android:text="Add Products"
+        android:onClick="addProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <ListView
+            android:id="@+id/productLV"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

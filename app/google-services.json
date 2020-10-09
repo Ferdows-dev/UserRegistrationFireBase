@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "11989592544",
+    "firebase_url": "https://user-sign-up-f74bb.firebaseio.com",
+    "project_id": "user-sign-up-f74bb",
+    "storage_bucket": "user-sign-up-f74bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11989592544:android:2ef350170d2342d39c6385",
+        "android_client_info": {
+          "package_name": "com.learning.userregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11989592544-rjo1lnqt1s5m8q97tf132u9oprh76u98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learning.userregistration",
+            "certificate_hash": "2f45521105a6b123f2e2f9b1de6259f5e1cbf703"
+          }
+        },
+        {
+          "client_id": "11989592544-r7n66c5a55md2fv3c268ue3d5es9r5qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBapN6JtcrwJS4PGrX6nb_zfvXRcWeCXew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11989592544-r7n66c5a55md2fv3c268ue3d5es9r5qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
